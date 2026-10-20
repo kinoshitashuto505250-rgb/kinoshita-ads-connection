@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>木下集客支援事業所 | 広告実績連携ツール</title>
+  <meta name="description" content="木下集客支援事業所の担当業務で利用する、Google広告の実績取得・蓄積ツールの説明ページです。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">木下集客支援事業所</a>
+    <nav aria-label="メインナビゲーション"><a href="index.html" aria-current="page">ツールについて</a><a href="privacy.html">プライバシー</a><a href="terms.html">利用条件</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">KINOSHITA / AD DATA</p>
+      <h1>広告実績を記録し、<br>日々の判断につなげる。</h1>
+      <p class="lead">木下集客支援事業所の担当業務で利用する「広告実績連携ツール」です。アクセスを許可されたGoogle広告のうち、担当案件として設定したアカウントの実績を取得し、日々の確認や報告に利用します。</p>
+      <p class="app-id">Google認証設定のアプリ名：木下集客支援事業所 広告実績連携ツール</p>
+    </section>
+    <section class="section" aria-labelledby="purpose">
+      <h2 id="purpose">何のために使うか</h2>
+      <div class="grid">
+        <article class="card"><div class="number">01 / COLLECT</div><h3>広告実績を取得</h3><p>広告費、表示回数、クリック数、コンバージョンなどを、アカウント・キャンペーン・日付ごとに取得します。</p></article>
+        <article class="card"><div class="number">02 / KEEP</div><h3>記録を蓄積</h3><p>取得したデータと取得日時・成否を保存します。未取得や認証エラーを、実績ゼロとして扱わないよう区別します。</p></article>
+        <article class="card"><div class="number">03 / REVIEW</div><h3>確認・分析に利用</h3><p>指定された保管庫やローカルの記録から、担当案件の経緯と数字を参照し、分析や報告作成に役立てます。</p></article>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="scope">
+      <h2 id="scope">利用者と取得対象</h2>
+      <p>このツールは木下集客支援事業所の担当者自身の業務利用向けです。不特定多数向けのサービスや、他社の公式アプリとして提供するものではありません。</p>
+      <p>Googleへの接続には、利用者自身の同意と、対象アカウントへの既存のアクセス権を使用します。アクセス可能な全広告アカウントを一律に取得するのではなく、担当案件として設定された対象を取得します。</p>
+      <div class="note">定期取得プログラムは読み取り用途です。広告の予算・入札・配信状態・広告内容を自動変更する機能は、この定期取得処理に含めません。</div>
+      <p class="muted">Google広告のAPI権限自体には編集等が含まれますが、権限が存在することと、変更を実行することは別です。また、同じGoogle CloudプロジェクトにはGoogleタグマネージャーの編集権限も登録されています。広告実績の定期取得処理では使用しません。</p>
+    </section>
+    <section class="section" aria-labelledby="storage">
+      <h2 id="storage">データの流れ</h2>
+      <p class="flow">Google広告 API → ローカルの記録 → 指定の保管庫・分析</p>
+      <p>取得データは利用者のPC上のデータベースやファイルに保存し、指定したObsidian保管庫等の表示に反映します。保存先の設定により、クラウドストレージに同期される場合があります。</p>
+      <p>利用者が指定するAIサービスで検索・分析・報告作成に利用する場合があります。この説明サイト自体に、広告データの表示・アップロード・Googleへのログイン機能はありません。</p>
+      <a class="button-link" href="privacy.html">データの取扱いを確認する</a>
+    </section>
+    <section class="section" aria-labelledby="contact">
+      <h2 id="contact">運用担当・お問い合わせ</h2>
+      <p>運営屋号：木下集客支援事業所<br>運用担当：木下<br>連絡先：<a class="email" href="mailto:kinoshita.shuto.505250@gmail.com">kinoshita.shuto.505250@gmail.com</a></p>
+      <p class="muted">このページはツールの説明を目的とします。Googleによるアプリの審査・承認・永続的な接続を保証するものではありません。</p>
+    </section>
+  </main>
+  <footer><div class="footer-links"><a href="privacy.html">プライバシーポリシー</a><a href="terms.html">利用条件</a></div><p>木下集客支援事業所 · 広告実績連携ツール · 公開日 2026年10月20日</p></footer>
+</body>
+</html>
+
